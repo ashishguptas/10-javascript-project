@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    background-color: purple;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.toast{
+    background-color: purple;
+    padding: 2rem;
+    color: #ffffff;
+    margin: 10px 0px;
+}

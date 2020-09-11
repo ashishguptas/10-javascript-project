@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.heart{
+    position: fixed;
+    top: -2vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+body.dark{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+label{
+    user-select: none;
+}
+.dark-btn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+.dark-btn input{
+    visibility: hidden;
+}
+.dark-btn input+label{
+    width: 50px;
+    height: 50px;
+    background-color: #1f1f1f;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dark input+label{
+    background-color: #ffffff;
+}
